@@ -1,0 +1,24 @@
+.banner{
+    background: linear-gradient(black #31A8DD);
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/banner.png);
+    border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    border-radius: 268px;
+    background-color:rgba(0, 0, 0, 0.219) ;
+}
+
+button{
+    color: #31A8DD;
+    padding: 19px 91px 19px 91px;
+    margin: 31px;
+    border: 2px solid #31A8DD;
+}
