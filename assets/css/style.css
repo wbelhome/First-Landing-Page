@@ -16,7 +16,6 @@ body{
 .banner .banner-content{
     margin: auto;
     width: 600px;
-    color: white;
     text-align: center;
     padding: 16px;
 }
@@ -28,7 +27,6 @@ body{
     margin: auto;
     background-color: rgba(0, 0, 0, .2);
     padding: 16px;
-    margin-top: 16px;
     margin-bottom: 16px;
 }
 
@@ -50,7 +48,7 @@ body{
 }
 
 .banner-content p{
-    
+    color: white;
     font-size: 1.25rem;
     padding: 20px;
 }
@@ -90,7 +88,6 @@ h2{
     font-size: 32px;
     letter-spacing: 3px;
     color: #33A8DB;
-    -webkit-background-clip: text;
     padding: 20px;
     margin: auto;
 }
@@ -139,10 +136,32 @@ h2{
 #professional-challenges{
     margin-top: 60px;
     text-align: center;
+    margin: auto;
+    padding: 16px;
+    border-bottom: #1472B7 solid 2px;
 }
 
 #professional-challenges p{
-
+    margin: auto;
+    width: 800px;
+    color: white;
+    padding: 60px;
 }
 
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(51, 169, 219, 0.2));
+    text-align: center;
+    padding: 65px;
+}
+
+footer p{
+    margin: auto;
+    color: white;
+}
+
+footer a{
+    font-weight: bolder;
+    color: #33A8DB;
+    text-decoration: none;
+}
 
